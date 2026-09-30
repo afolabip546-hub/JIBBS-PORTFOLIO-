@@ -11,7 +11,7 @@
 
     <meta
         name="description"
-        content="Jibbs — Frontend Developer building modern, responsive and user-friendly websites."
+        content="Jibbs — Frontend Developer building modern, responsive websites for businesses and brands."
     >
 
     <title>Jibbs | Frontend Developer</title>
@@ -67,7 +67,9 @@
 
             <button
                 class="menu-button"
+                type="button"
                 aria-label="Open navigation menu"
+                aria-expanded="false"
             >
                 ☰
             </button>
@@ -93,20 +95,22 @@
                 </p>
 
                 <h1>
-                    Hi, I'm <span>Jibbs.</span>
+                    Websites that
+                    <span>solve problems.</span>
                 </h1>
 
                 <h2>
                     I build modern, responsive websites
-                    that help businesses and brands
-                    stand out online.
+                    that help businesses present themselves
+                    professionally online.
                 </h2>
 
                 <p class="hero-description">
-                    I create clean, functional and user-friendly
-                    websites using HTML, CSS and JavaScript,
-                    with a focus on responsive design and a
-                    smooth user experience.
+                    From new business websites to landing pages
+                    and website improvements, I focus on creating
+                    clear interfaces that work well across devices
+                    and make it easier for people to understand
+                    what a business offers.
                 </p>
 
                 <div class="hero-buttons">
@@ -130,9 +134,14 @@
             </div>
 
 
-          <div class="hero-image">
-    <img src="images/jibbs-profile.png" alt="Jibbs - Frontend Developer">
-</div>
+            <div class="hero-image">
+
+                <img
+                    src="images/jibbs-profile.png"
+                    alt="Jibbs - Frontend Developer"
+                >
+
+            </div>
 
         </section>
 
@@ -150,8 +159,15 @@
                 </p>
 
                 <h2>
-                    Turning Ideas Into Experiences
+                    Building with purpose,
+                    not just appearance.
                 </h2>
+
+                <p>
+                    I care about how a website looks,
+                    but also about how clearly it communicates
+                    and how easily people can use it.
+                </p>
 
             </div>
 
@@ -159,31 +175,35 @@
             <div class="about-content">
 
                 <div class="about-image">
-    <img src="images/jibbs-profile.png" alt="Jibbs - Frontend Developer">
-</div>
+
+                    <img
+                        src="images/jibbs-profile.png"
+                        alt="Jibbs - Frontend Developer"
+                    >
+
+                </div>
 
 
                 <div class="about-text">
 
                     <p>
                         I'm Jibbs, a frontend developer
-                        passionate about creating modern,
+                        focused on creating modern,
                         responsive and user-friendly websites.
                     </p>
 
                     <p>
-                        I enjoy turning ideas into real
-                        websites that are clean, functional
-                        and easy to navigate. I learn by
-                        building projects and continuously
-                        improving my skills.
+                        I learn by building real projects,
+                        testing ideas and improving the way
+                        websites communicate with their users.
                     </p>
 
                     <p>
-                        My goal is simple: create websites
-                        that look professional, work smoothly
-                        across different devices and give
-                        visitors a great experience.
+                        My goal is to create websites that
+                        feel professional, work smoothly
+                        across different devices and make
+                        the information visitors need easy
+                        to find.
                     </p>
 
 
@@ -239,13 +259,14 @@
                 </p>
 
                 <h2>
-                    What I Can Do For You
+                    Websites built around
+                    real business needs.
                 </h2>
 
                 <p>
-                    Web solutions designed to help
-                    businesses and brands build a
-                    professional online presence.
+                    I focus on practical web solutions that
+                    help businesses communicate their services
+                    clearly and establish a stronger online presence.
                 </p>
 
             </div>
@@ -253,12 +274,11 @@
 
             <div class="service-grid">
 
-
                 <article class="service-card">
 
-                    <span class="service-number">
-                        01
-                    </span>
+                    <div class="service-icon">
+                        WEB
+                    </div>
 
                     <h3>
                         Business Websites
@@ -266,9 +286,9 @@
 
                     <p>
                         Professional websites that help
-                        businesses showcase their services,
+                        businesses present their services,
                         build credibility and make it easier
-                        for customers to find them online.
+                        for customers to find important information.
                     </p>
 
                 </article>
@@ -276,19 +296,18 @@
 
                 <article class="service-card">
 
-                    <span class="service-number">
-                        02
-                    </span>
+                    <div class="service-icon">
+                        LP
+                    </div>
 
                     <h3>
                         Landing Pages
                     </h3>
 
                     <p>
-                        Clean and focused landing pages
-                        designed to present a product,
-                        service or offer clearly and guide
-                        visitors toward taking action.
+                        Focused pages designed to communicate
+                        a product, service or offer clearly
+                        and guide visitors toward a specific action.
                     </p>
 
                 </article>
@@ -296,19 +315,18 @@
 
                 <article class="service-card">
 
-                    <span class="service-number">
-                        03
-                    </span>
+                    <div class="service-icon">
+                        UI
+                    </div>
 
                     <h3>
                         Responsive Web Design
                     </h3>
 
                     <p>
-                        Websites that adapt smoothly to
-                        phones, tablets and desktops while
-                        maintaining a clean and easy-to-use
-                        experience.
+                        Interfaces that adapt properly across
+                        phones, tablets and desktops without
+                        sacrificing usability or visual clarity.
                     </p>
 
                 </article>
@@ -316,18 +334,18 @@
 
                 <article class="service-card">
 
-                    <span class="service-number">
-                        04
-                    </span>
+                    <div class="service-icon">
+                        UX
+                    </div>
 
                     <h3>
-                        Website Redesign
+                        Website Improvement
                     </h3>
 
                     <p>
-                        Giving existing websites a cleaner,
-                        more modern look with improved layouts,
-                        responsiveness and user experience.
+                        Improving existing websites through
+                        clearer layouts, better responsive behavior
+                        and a more focused user experience.
                     </p>
 
                 </article>
@@ -341,21 +359,22 @@
              PROJECTS
         ================================= -->
 
-        <section id="projects" class="section">
+        <section id="projects" class="section projects-section">
 
             <div class="section-heading">
 
                 <p class="eyebrow">
-                    MY WORK
+                    SELECTED WORK
                 </p>
 
                 <h2>
-                    Selected Projects
+                    Projects I've built.
                 </h2>
 
                 <p>
-                    A selection of websites I've designed
-                    and developed.
+                    A selection of completed websites and
+                    practical concepts I've developed while
+                    building my experience.
                 </p>
 
             </div>
@@ -363,14 +382,17 @@
 
             <div class="project-grid">
 
-
                 <!-- JIBBSWAVES -->
 
                 <article class="project-card">
 
                     <div class="project-image">
 
-                        <img src="images/jibbswaves.png" alt="JibbsWaves website screenshot">
+                        <img
+                            src="images/jibbswaves.png"
+                            alt="JibbsWaves website screenshot"
+                            loading="lazy"
+                        >
 
                     </div>
 
@@ -386,10 +408,10 @@
                         </h3>
 
                         <p>
-                            A modern and responsive website
-                            designed and developed to give
-                            JibbsWaves a professional online
-                            presence.
+                            A modern responsive website designed
+                            and developed to give JibbsWaves a
+                            professional online presence and
+                            clearer presentation of its offering.
                         </p>
 
 
@@ -407,9 +429,10 @@
                             href="https://jibbswave.netlify.app/"
                             class="project-link"
                             target="_blank"
-                            rel="noopener"
+                            rel="noopener noreferrer"
                         >
-                            View Live Website →
+                            View Live Website
+                            <span>→</span>
                         </a>
 
                     </div>
@@ -417,13 +440,17 @@
                 </article>
 
 
-                <!-- D28 LOGISTICS -->
+                <!-- D28 -->
 
                 <article class="project-card">
 
                     <div class="project-image">
 
-                 <img src="images/d28-logistics.png" alt="D28 Logistics website screenshot">
+                        <img
+                            src="images/d28-logistics.png"
+                            alt="D28 Logistics website screenshot"
+                            loading="lazy"
+                        >
 
                     </div>
 
@@ -439,10 +466,9 @@
                         </h3>
 
                         <p>
-                            A logistics website concept
-                            designed to present transportation
-                            and logistics services in a clear
-                            and professional way.
+                            A logistics website concept designed
+                            to present transportation and logistics
+                            services in a clear and professional way.
                         </p>
 
 
@@ -460,9 +486,10 @@
                             href="https://d28-logistics-demo.netlify.app/"
                             class="project-link"
                             target="_blank"
-                            rel="noopener"
+                            rel="noopener noreferrer"
                         >
-                            View Demo →
+                            View Demo
+                            <span>→</span>
                         </a>
 
                     </div>
@@ -476,8 +503,12 @@
 
                     <div class="project-image">
 
-                 
-                   <img src="images/indigocrystal.png" alt="IndigoCrystal website screenshot">
+                        <img
+                            src="images/indigocrystal.png"
+                            alt="IndigoCrystal website screenshot"
+                            loading="lazy"
+                        >
+
                     </div>
 
 
@@ -492,9 +523,9 @@
                         </h3>
 
                         <p>
-                            A clean and professional business
-                            website concept designed to create
-                            a strong and modern online presence.
+                            A clean business website concept
+                            designed to create a stronger and
+                            more modern online presence.
                         </p>
 
 
@@ -512,15 +543,15 @@
                             href="https://indigocrystal-demo.netlify.app/"
                             class="project-link"
                             target="_blank"
-                            rel="noopener"
+                            rel="noopener noreferrer"
                         >
-                            View Demo →
+                            View Demo
+                            <span>→</span>
                         </a>
 
                     </div>
 
                 </article>
-
 
             </div>
 
@@ -540,12 +571,12 @@
                 </p>
 
                 <h2>
-                    Tools I Work With
+                    Tools I use to build.
                 </h2>
 
                 <p>
-                    Technologies and skills I'm using
-                    to build modern web experiences.
+                    The technologies and practical skills
+                    I use across my web projects.
                 </p>
 
             </div>
@@ -554,27 +585,33 @@
             <div class="skills-grid">
 
                 <div class="skill">
-                    HTML
+                    <span>HTML</span>
+                    <small>Structure</small>
                 </div>
 
                 <div class="skill">
-                    CSS
+                    <span>CSS</span>
+                    <small>Styling</small>
                 </div>
 
                 <div class="skill">
-                    JavaScript
+                    <span>JavaScript</span>
+                    <small>Interaction</small>
                 </div>
 
                 <div class="skill">
-                    Responsive Design
+                    <span>Responsive Design</span>
+                    <small>Across devices</small>
                 </div>
 
                 <div class="skill">
-                    Git
+                    <span>Git</span>
+                    <small>Version control</small>
                 </div>
 
                 <div class="skill">
-                    GitHub
+                    <span>GitHub</span>
+                    <small>Code & projects</small>
                 </div>
 
             </div>
@@ -582,17 +619,27 @@
 
             <div class="learning-box">
 
-                <h3>
-                    Currently Learning
-                </h3>
+                <div>
 
-                <div class="learning-skills">
+                    <p class="learning-label">
+                        CURRENTLY LEARNING
+                    </p>
 
-                    <span>
+                    <h3>
                         React
-                    </span>
+                    </h3>
+
+                    <p>
+                        Expanding my frontend development
+                        workflow beyond traditional JavaScript
+                        websites.
+                    </p>
 
                 </div>
+
+                <span class="learning-badge">
+                    IN PROGRESS
+                </span>
 
             </div>
 
@@ -608,18 +655,18 @@
             <div class="contact-content">
 
                 <p class="eyebrow">
-                    CONTACT
+                    LET'S TALK
                 </p>
 
                 <h2>
-                    Have a Website Project in Mind?
+                    Have a website
+                    project in mind?
                 </h2>
 
                 <p>
-                    Whether you need a new website,
-                    a landing page or a redesign,
-                    let's talk about your idea and
-                    see how we can bring it to life.
+                    Whether you need a new website, a landing
+                    page or improvements to an existing site,
+                    let's talk about what you're trying to build.
                 </p>
 
 
@@ -634,23 +681,23 @@
                 <div class="contact-links">
 
                     <a
-                        href="https://wa.me/2349153067669"
-                        target="_blank"
-                        rel="noopener"
-                    >
-                        WhatsApp
-                    </a>
-
-                    <a
                         href="mailto:afolabip546@gmail.com"
                     >
                         Email
                     </a>
 
                     <a
+                        href="https://wa.me/2349153067669"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        WhatsApp
+                    </a>
+
+                    <a
                         href="https://github.com/afolabip546-hub"
                         target="_blank"
-                        rel="noopener"
+                        rel="noopener noreferrer"
                     >
                         GitHub
                     </a>
@@ -664,32 +711,68 @@
     </main>
 
 
-    <!-- ================================
-         FOOTER
-    ================================= -->
+<footer class="footer">
 
-    <footer class="footer">
+    <div class="footer-main">
 
-        <div>
+        <div class="footer-brand">
+            <a href="#home" class="footer-logo">JIBBS</a>
 
-            <h3>
-                JIBBS
-            </h3>
+            <p>Websites that solve problems.</p>
 
-            <p>
-                Frontend Developer
-            </p>
-
+            <span>Frontend Developer</span>
         </div>
 
+        <div class="footer-column">
+            <h3>Explore</h3>
+
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+        </div>
+
+        <div class="footer-column">
+            <h3>Connect</h3>
+
+            <a href="#contact">Contact</a>
+
+            <a href="mailto:afolabip546@gmail.com">
+                Email
+            </a>
+
+            <a
+                href="https://wa.me/2349153067669"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                WhatsApp
+            </a>
+
+            <a
+                href="https://github.com/afolabip546-hub"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                GitHub
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
 
         <p>
             © 2026 Jibbs. All rights reserved.
         </p>
 
-    </footer>
+        <a href="#home">
+            Back to top ↑
+        </a>
 
+    </div>
 
+</footer>
     <script src="script.js"></script>
 
 </body>
